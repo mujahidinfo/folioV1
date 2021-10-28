@@ -1,7 +1,3 @@
 .App {
-  display: block;
-  box-sizing: border-box;
-  height: 100vh;
-  background-color: #224854;
-  clip-path: ellipse(153% 100% at 59.27% 0%);
+  background-color: #252525;
 }

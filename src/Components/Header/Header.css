@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 90vh;
+  height: 85vh;
 }
 .text-area {
   color: #fff;
@@ -12,6 +12,7 @@
 }
 .text-area h1 {
   font-size: 2.4rem;
+  font-weight: bold;
 }
 .text-area h4 {
   color: #fffa87;
@@ -23,8 +24,9 @@
 }
 .img-area img {
   width: 70%;
-  border-radius: 10px;
+  border-radius: 30px;
 }
+
 @media (max-width: 750px) {
   .hero-section {
     flex-direction: column;
@@ -37,6 +39,7 @@
     width: 100%;
     margin-top: 40px;
     margin-bottom: 15px;
+    order: 2;
   }
   .img-area {
     width: 100%;
@@ -47,4 +50,30 @@
   .text-area h3 {
     font-size: 2.2rem;
   }
+}
+.text-area span {
+  margin-right: 10px;
+  color: #fffa87;
+}
+.text-area span:hover {
+  color: #ffffff;
+}
+.Particles {
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+.Background {
+  display: block;
+  box-sizing: border-box;
+  height: 95vh;
+  background-color: #224854;
+  opacity: 1;
+  background-image: radial-gradient(#fffa87 0.55px, #224854 0.55px);
+  background-size: 11px 11px;
+  clip-path: ellipse(153% 100% at 59.27% 0%);
 }

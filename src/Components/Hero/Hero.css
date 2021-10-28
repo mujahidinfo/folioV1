@@ -1,0 +1,11 @@
+.hero-container {
+  color: #fff;
+}
+.hero-img {
+  text-align: center;
+}
+.hero-img img {
+  width: 70%;
+  border-radius: 30px;
+  padding: 10px;
+}
