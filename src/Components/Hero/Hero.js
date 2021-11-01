@@ -15,8 +15,8 @@ const Hero = () => {
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     <hr className="mt-5" />
                     <Stack direction="row" spacing={4}>
-                        <Button variant="contained" size="large" endIcon={<FaDownload/>}>Resume</Button>
-                        <Button variant="contained" size="large" endIcon={<FaEnvelope/>}>Hire Me!</Button>
+                        <Button variant="contained" size="large" endIcon={<FaDownload/>} style={{backgroundColor: '#fffa87', color: '#161616'}}>Resume</Button>
+                        <Button variant="contained" size="large" endIcon={<FaEnvelope/>} style={{backgroundColor: '#fffa87', color: '#161616'}}>Hire Me!</Button>
                     </Stack>
                     
                 </div>
